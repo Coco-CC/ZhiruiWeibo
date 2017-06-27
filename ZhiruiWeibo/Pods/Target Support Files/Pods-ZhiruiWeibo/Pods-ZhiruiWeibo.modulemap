@@ -1,0 +1,6 @@
+framework module Pods_ZhiruiWeibo {
+  umbrella header "Pods-ZhiruiWeibo-umbrella.h"
+
+  export *
+  module * { export * }
+}
