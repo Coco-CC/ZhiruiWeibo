@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0F5B5C1DEFCD6D00868DEC /* PhotoBrowserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0F5B5B1DEFCD6D00868DEC /* PhotoBrowserViewCell.swift */; };
+		4E0F5B5E1DEFDD8C00868DEC /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0F5B5D1DEFDD8C00868DEC /* ProgressView.swift */; };
+		4E0F5B601DEFFCFB00868DEC /* PhotoBrowserAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0F5B5F1DEFFCFB00868DEC /* PhotoBrowserAnimator.swift */; };
+		4E1992C41DE178680044CFAC /* YCNetWorkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1992C31DE178680044CFAC /* YCNetWorkManage.m */; };
+		4E1992C91DE1834A0044CFAC /* CCNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1992C81DE1834A0044CFAC /* CCNetworkTool.swift */; };
+		4E3FB99D1DEBD096006D9DCF /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FB99B1DEBD096006D9DCF /* ComposeViewController.swift */; };
+		4E3FB99E1DEBD096006D9DCF /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3FB99C1DEBD096006D9DCF /* ComposeViewController.xib */; };
+		4E3FB9A01DEBD334006D9DCF /* ComposeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FB99F1DEBD334006D9DCF /* ComposeTitleView.swift */; };
+		4E3FB9A21DEBD62A006D9DCF /* ComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FB9A11DEBD62A006D9DCF /* ComposeTextView.swift */; };
+		4E3FB9A51DEC197E006D9DCF /* PicPickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FB9A41DEC197E006D9DCF /* PicPickerCollectionView.swift */; };
+		4E3FB9A81DEC2078006D9DCF /* PicPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FB9A61DEC2078006D9DCF /* PicPickerCell.swift */; };
+		4E3FB9A91DEC2078006D9DCF /* PicPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3FB9A71DEC2078006D9DCF /* PicPickerCell.xib */; };
+		4E6843051DDC36F8004EA2AD /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E6843041DDC36F8004EA2AD /* MainVCSettings.json */; };
+		4E6843071DDC44BF004EA2AD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6843061DDC44BF004EA2AD /* Home.storyboard */; };
+		4E6843091DDC44F7004EA2AD /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6843081DDC44F7004EA2AD /* Message.storyboard */; };
+		4E68430B1DDC4516004EA2AD /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E68430A1DDC4516004EA2AD /* Discover.storyboard */; };
+		4E68430D1DDC452F004EA2AD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E68430C1DDC452F004EA2AD /* Profile.storyboard */; };
+		4E68430F1DDC487E004EA2AD /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E68430E1DDC487E004EA2AD /* Null.storyboard */; };
+		4E6843131DDC578C004EA2AD /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6843121DDC578C004EA2AD /* UIButton-Extension.swift */; };
+		4EA8B2E51DE436A9003BDA36 /* UserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA8B2E41DE436A9003BDA36 /* UserAccountViewModel.swift */; };
+		4EBE57461DE54D8300E0B43E /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EBE57441DE54D8300E0B43E /* WelcomeViewController.xib */; };
+		4EBE57471DE54D8300E0B43E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE57451DE54D8300E0B43E /* WelcomeViewController.swift */; };
+		4EBE574A1DE56A4600E0B43E /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE57491DE56A4600E0B43E /* Status.swift */; };
+		4EBE574C1DE56A8B00E0B43E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE574B1DE56A8B00E0B43E /* User.swift */; };
+		4EBE574E1DE57B8500E0B43E /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE574D1DE57B8500E0B43E /* NSDate-Extension.swift */; };
+		4EDD251B1DDC183B0092EC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD251A1DDC183B0092EC67 /* AppDelegate.swift */; };
+		4EDD251D1DDC183B0092EC67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD251C1DDC183B0092EC67 /* ViewController.swift */; };
+		4EDD25201DDC183B0092EC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD251E1DDC183B0092EC67 /* Main.storyboard */; };
+		4EDD25221DDC183B0092EC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD25211DDC183B0092EC67 /* Assets.xcassets */; };
+		4EDD25251DDC183B0092EC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD25231DDC183B0092EC67 /* LaunchScreen.storyboard */; };
+		4EDD252D1DDC195B0092EC67 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD252C1DDC195B0092EC67 /* Default-736h@3x.png */; };
+		4EDD25351DDC2C2B0092EC67 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD25341DDC2C2B0092EC67 /* MainViewController.swift */; };
+		4EDD25371DDC2D330092EC67 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD25361DDC2D330092EC67 /* HomeViewController.swift */; };
+		4EDD25391DDC2D530092EC67 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD25381DDC2D530092EC67 /* MessageViewController.swift */; };
+		4EDD253B1DDC2D610092EC67 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD253A1DDC2D610092EC67 /* DiscoverViewController.swift */; };
+		4EDD253D1DDC2D6E0092EC67 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD253C1DDC2D6E0092EC67 /* ProfileViewController.swift */; };
+		4EDF227F1DEE79DF00571508 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF22741DEE79DF00571508 /* compose_emotion_delete@2x.png */; };
+		4EDF22801DEE79DF00571508 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF22751DEE79DF00571508 /* compose_emotion_delete@3x.png */; };
+		4EDF22811DEE79DF00571508 /* EmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF22761DEE79DF00571508 /* EmoticonAttachment.swift */; };
+		4EDF22821DEE79DF00571508 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF22771DEE79DF00571508 /* Emoticons.bundle */; };
+		4EDF22831DEE79DF00571508 /* EmoticonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF22781DEE79DF00571508 /* EmoticonViewCell.swift */; };
+		4EDF22841DEE79DF00571508 /* EmotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF22791DEE79DF00571508 /* EmotionController.swift */; };
+		4EDF22851DEE79DF00571508 /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF227B1DEE79DF00571508 /* Emoticon.swift */; };
+		4EDF22861DEE79DF00571508 /* EmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF227C1DEE79DF00571508 /* EmoticonManager.swift */; };
+		4EDF22871DEE79DF00571508 /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF227D1DEE79DF00571508 /* EmoticonPackage.swift */; };
+		4EDF22881DEE79DF00571508 /* UITextView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF227E1DEE79DF00571508 /* UITextView-Extension.swift */; };
+		4EDF22DE1DEEAE5000571508 /* FindEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF22DD1DEEAE5000571508 /* FindEmoticon.swift */; };
+		4EEC14071DEFC1C500BFE6F3 /* PhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC14061DEFC1C500BFE6F3 /* PhotoBrowserController.swift */; };
+		4EF469161DDD506F00AA7264 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF469151DDD506F00AA7264 /* BaseViewController.swift */; };
+		4EF4691C1DDD529200AA7264 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4691B1DDD529200AA7264 /* VisitorView.xib */; };
+		4EF4691E1DDD529C00AA7264 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4691D1DDD529C00AA7264 /* VisitorView.swift */; };
+		4EF469201DDD7BCC00AA7264 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4691F1DDD7BCC00AA7264 /* UIBarButtonItem-Extension.swift */; };
+		4EF469221DDD7E9400AA7264 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF469211DDD7E9400AA7264 /* TitleButton.swift */; };
+		4EF469281DDD833800AA7264 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF469261DDD833800AA7264 /* PopoverViewController.swift */; };
+		4EF469291DDD833800AA7264 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF469271DDD833800AA7264 /* PopoverViewController.xib */; };
+		4EF4692B1DDD8B9B00AA7264 /* CCPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4692A1DDD8B9B00AA7264 /* CCPresentationController.swift */; };
+		4EF4692D1DDD966D00AA7264 /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4692C1DDD966D00AA7264 /* PopoverAnimator.swift */; };
+		4EFA0DD21DE687BA00AAB8BF /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA0DD11DE687BA00AAB8BF /* StatusViewModel.swift */; };
+		4EFA0DD41DE68F9400AAB8BF /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA0DD31DE68F9400AAB8BF /* HomeViewCell.swift */; };
+		4EFA0DD61DE6C91700AAB8BF /* PicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA0DD51DE6C91700AAB8BF /* PicCollectionView.swift */; };
+		4EFA0DDC1DE6D03B00AAB8BF /* PicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA0DDB1DE6D03B00AAB8BF /* PicCollectionViewCell.swift */; };
+		4EFDB4F41DE3FC4600A98043 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFDB4F31DE3FC4600A98043 /* UserAccount.swift */; };
+		4EFF25E51DE1B25E004D9D78 /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF25E31DE1B25E004D9D78 /* OAuthViewController.swift */; };
+		4EFF25E61DE1B25E004D9D78 /* OAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EFF25E41DE1B25E004D9D78 /* OAuthViewController.xib */; };
+		4EFF25E81DE1C40B004D9D78 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF25E71DE1C40B004D9D78 /* Common.swift */; };
+		9BF81A1017F10A3702F38181 /* Pods_ZhiruiWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB11550B3C7E3B785B3C611A /* Pods_ZhiruiWeibo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0F5B5B1DEFCD6D00868DEC /* PhotoBrowserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserViewCell.swift; sourceTree = "<group>"; };
+		4E0F5B5D1DEFDD8C00868DEC /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		4E0F5B5F1DEFFCFB00868DEC /* PhotoBrowserAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserAnimator.swift; sourceTree = "<group>"; };
+		4E1992C21DE178680044CFAC /* YCNetWorkManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCNetWorkManage.h; sourceTree = "<group>"; };
+		4E1992C31DE178680044CFAC /* YCNetWorkManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCNetWorkManage.m; sourceTree = "<group>"; };
+		4E1992C71DE17CCD0044CFAC /* ZhiruiWeibo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhiruiWeibo-Bridging-Header.h"; sourceTree = "<group>"; };
+		4E1992C81DE1834A0044CFAC /* CCNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCNetworkTool.swift; sourceTree = "<group>"; };
+		4E3FB99B1DEBD096006D9DCF /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		4E3FB99C1DEBD096006D9DCF /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		4E3FB99F1DEBD334006D9DCF /* ComposeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTitleView.swift; sourceTree = "<group>"; };
+		4E3FB9A11DEBD62A006D9DCF /* ComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTextView.swift; sourceTree = "<group>"; };
+		4E3FB9A41DEC197E006D9DCF /* PicPickerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicPickerCollectionView.swift; sourceTree = "<group>"; };
+		4E3FB9A61DEC2078006D9DCF /* PicPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicPickerCell.swift; sourceTree = "<group>"; };
+		4E3FB9A71DEC2078006D9DCF /* PicPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicPickerCell.xib; sourceTree = "<group>"; };
+		4E6843041DDC36F8004EA2AD /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		4E6843061DDC44BF004EA2AD /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4E6843081DDC44F7004EA2AD /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		4E68430A1DDC4516004EA2AD /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		4E68430C1DDC452F004EA2AD /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		4E68430E1DDC487E004EA2AD /* Null.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Null.storyboard; sourceTree = "<group>"; };
+		4E6843121DDC578C004EA2AD /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		4EA8B2E41DE436A9003BDA36 /* UserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountViewModel.swift; sourceTree = "<group>"; };
+		4EBE57441DE54D8300E0B43E /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		4EBE57451DE54D8300E0B43E /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4EBE57491DE56A4600E0B43E /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		4EBE574B1DE56A8B00E0B43E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4EBE574D1DE57B8500E0B43E /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		4EDD25171DDC183B0092EC67 /* ZhiruiWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiruiWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDD251A1DDC183B0092EC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EDD251C1DDC183B0092EC67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EDD251F1DDC183B0092EC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EDD25211DDC183B0092EC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EDD25241DDC183B0092EC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EDD25261DDC183B0092EC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDD252C1DDC195B0092EC67 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		4EDD25341DDC2C2B0092EC67 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4EDD25361DDC2D330092EC67 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4EDD25381DDC2D530092EC67 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		4EDD253A1DDC2D610092EC67 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		4EDD253C1DDC2D6E0092EC67 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4EDF22741DEE79DF00571508 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		4EDF22751DEE79DF00571508 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
+		4EDF22761DEE79DF00571508 /* EmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonAttachment.swift; sourceTree = "<group>"; };
+		4EDF22771DEE79DF00571508 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		4EDF22781DEE79DF00571508 /* EmoticonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewCell.swift; sourceTree = "<group>"; };
+		4EDF22791DEE79DF00571508 /* EmotionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionController.swift; sourceTree = "<group>"; };
+		4EDF227B1DEE79DF00571508 /* Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		4EDF227C1DEE79DF00571508 /* EmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonManager.swift; sourceTree = "<group>"; };
+		4EDF227D1DEE79DF00571508 /* EmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
+		4EDF227E1DEE79DF00571508 /* UITextView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView-Extension.swift"; sourceTree = "<group>"; };
+		4EDF22DD1DEEAE5000571508 /* FindEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEmoticon.swift; sourceTree = "<group>"; };
+		4EEC14061DEFC1C500BFE6F3 /* PhotoBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserController.swift; sourceTree = "<group>"; };
+		4EF469151DDD506F00AA7264 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4EF4691B1DDD529200AA7264 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		4EF4691D1DDD529C00AA7264 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		4EF4691F1DDD7BCC00AA7264 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		4EF469211DDD7E9400AA7264 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		4EF469261DDD833800AA7264 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		4EF469271DDD833800AA7264 /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		4EF4692A1DDD8B9B00AA7264 /* CCPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCPresentationController.swift; sourceTree = "<group>"; };
+		4EF4692C1DDD966D00AA7264 /* PopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
+		4EFA0DD11DE687BA00AAB8BF /* StatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		4EFA0DD31DE68F9400AAB8BF /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		4EFA0DD51DE6C91700AAB8BF /* PicCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCollectionView.swift; sourceTree = "<group>"; };
+		4EFA0DDB1DE6D03B00AAB8BF /* PicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EFDB4F31DE3FC4600A98043 /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		4EFF25E31DE1B25E004D9D78 /* OAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
+		4EFF25E41DE1B25E004D9D78 /* OAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OAuthViewController.xib; sourceTree = "<group>"; };
+		4EFF25E71DE1C40B004D9D78 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		79D18E8990F77BA9A5C38979 /* Pods-ZhiruiWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiruiWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiruiWeibo/Pods-ZhiruiWeibo.debug.xcconfig"; sourceTree = "<group>"; };
+		F8D8DCB6D7A4A7C53ACD3510 /* Pods-ZhiruiWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiruiWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiruiWeibo/Pods-ZhiruiWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		FB11550B3C7E3B785B3C611A /* Pods_ZhiruiWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhiruiWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDD25141DDC183B0092EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF81A1017F10A3702F38181 /* Pods_ZhiruiWeibo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3FB99A1DEBD072006D9DCF /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				4E3FB9A31DEC1955006D9DCF /* PicPicker */,
+				4E3FB99B1DEBD096006D9DCF /* ComposeViewController.swift */,
+				4E3FB99F1DEBD334006D9DCF /* ComposeTitleView.swift */,
+				4E3FB9A11DEBD62A006D9DCF /* ComposeTextView.swift */,
+				4E3FB99C1DEBD096006D9DCF /* ComposeViewController.xib */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		4E3FB9A31DEC1955006D9DCF /* PicPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4E3FB9A41DEC197E006D9DCF /* PicPickerCollectionView.swift */,
+				4E3FB9A61DEC2078006D9DCF /* PicPickerCell.swift */,
+				4E3FB9A71DEC2078006D9DCF /* PicPickerCell.xib */,
+			);
+			path = PicPicker;
+			sourceTree = "<group>";
+		};
+		4E6843031DDC36F8004EA2AD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4E68430E1DDC487E004EA2AD /* Null.storyboard */,
+				4E6843041DDC36F8004EA2AD /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4E6843101DDC5712004EA2AD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4E6843111DDC5736004EA2AD /* Category */,
+				4EF469211DDD7E9400AA7264 /* TitleButton.swift */,
+				4E1992C81DE1834A0044CFAC /* CCNetworkTool.swift */,
+				4E1992C21DE178680044CFAC /* YCNetWorkManage.h */,
+				4EDF22731DEE79DF00571508 /* Emoticon */,
+				4E1992C31DE178680044CFAC /* YCNetWorkManage.m */,
+				4E1992C71DE17CCD0044CFAC /* ZhiruiWeibo-Bridging-Header.h */,
+				4EFF25E71DE1C40B004D9D78 /* Common.swift */,
+			);
+			name = Tools;
+			path = Classes/Tools;
+			sourceTree = "<group>";
+		};
+		4E6843111DDC5736004EA2AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4E6843121DDC578C004EA2AD /* UIButton-Extension.swift */,
+				4EF4691F1DDD7BCC00AA7264 /* UIBarButtonItem-Extension.swift */,
+				4EBE574D1DE57B8500E0B43E /* NSDate-Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4EA8B2E61DE43B37003BDA36 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4EBE57441DE54D8300E0B43E /* WelcomeViewController.xib */,
+				4EBE57451DE54D8300E0B43E /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		4EBE57481DE569B700E0B43E /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				4EBE57491DE56A4600E0B43E /* Status.swift */,
+				4EBE574B1DE56A8B00E0B43E /* User.swift */,
+				4EFA0DD11DE687BA00AAB8BF /* StatusViewModel.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		4EDD250E1DDC183B0092EC67 = {
+			isa = PBXGroup;
+			children = (
+				4EDD25191DDC183B0092EC67 /* ZhiruiWeibo */,
+				4EDD25181DDC183B0092EC67 /* Products */,
+				DE2B80B1FF9AF90A310A8CD6 /* Pods */,
+				8961808DA53B47481B0EB46F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDD25181DDC183B0092EC67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDD25171DDC183B0092EC67 /* ZhiruiWeibo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDD25191DDC183B0092EC67 /* ZhiruiWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				4EDD252E1DDC29E20092EC67 /* Classes */,
+				4E6843101DDC5712004EA2AD /* Tools */,
+				4EDD251A1DDC183B0092EC67 /* AppDelegate.swift */,
+				4EDD251C1DDC183B0092EC67 /* ViewController.swift */,
+				4EDD251E1DDC183B0092EC67 /* Main.storyboard */,
+				4EDD25211DDC183B0092EC67 /* Assets.xcassets */,
+				4EDD25231DDC183B0092EC67 /* LaunchScreen.storyboard */,
+				4EDD252C1DDC195B0092EC67 /* Default-736h@3x.png */,
+				4EDD25261DDC183B0092EC67 /* Info.plist */,
+			);
+			path = ZhiruiWeibo;
+			sourceTree = "<group>";
+		};
+		4EDD252E1DDC29E20092EC67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E3FB99A1DEBD072006D9DCF /* Compose */,
+				4EFF25E21DE1B23D004D9D78 /* OAuth */,
+				4EDD25311DDC29E20092EC67 /* Main */,
+				4EDD25301DDC29E20092EC67 /* Home */,
+				4EDD25321DDC29E20092EC67 /* Message */,
+				4EDD252F1DDC29E20092EC67 /* Discover */,
+				4EDD25331DDC29E20092EC67 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4EDD252F1DDC29E20092EC67 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				4E68430A1DDC4516004EA2AD /* Discover.storyboard */,
+				4EDD253A1DDC2D610092EC67 /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		4EDD25301DDC29E20092EC67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4EBE57481DE569B700E0B43E /* HomeModel */,
+				4EF469231DDD82FF00AA7264 /* UIPopover */,
+				4E6843061DDC44BF004EA2AD /* Home.storyboard */,
+				4EDD25361DDC2D330092EC67 /* HomeViewController.swift */,
+				4EEC14061DEFC1C500BFE6F3 /* PhotoBrowserController.swift */,
+				4E0F5B5B1DEFCD6D00868DEC /* PhotoBrowserViewCell.swift */,
+				4E0F5B5F1DEFFCFB00868DEC /* PhotoBrowserAnimator.swift */,
+				4E0F5B5D1DEFDD8C00868DEC /* ProgressView.swift */,
+				4EFA0DD31DE68F9400AAB8BF /* HomeViewCell.swift */,
+				4EFA0DD51DE6C91700AAB8BF /* PicCollectionView.swift */,
+				4EFA0DDB1DE6D03B00AAB8BF /* PicCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4EDD25311DDC29E20092EC67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4EA8B2E61DE43B37003BDA36 /* Welcome */,
+				4EF469141DDD505300AA7264 /* visitor */,
+				4E6843031DDC36F8004EA2AD /* Resource */,
+				4EDD25341DDC2C2B0092EC67 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4EDD25321DDC29E20092EC67 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4E6843081DDC44F7004EA2AD /* Message.storyboard */,
+				4EDD25381DDC2D530092EC67 /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		4EDD25331DDC29E20092EC67 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4E68430C1DDC452F004EA2AD /* Profile.storyboard */,
+				4EDD253C1DDC2D6E0092EC67 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4EDF22731DEE79DF00571508 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF22741DEE79DF00571508 /* compose_emotion_delete@2x.png */,
+				4EDF22751DEE79DF00571508 /* compose_emotion_delete@3x.png */,
+				4EDF22761DEE79DF00571508 /* EmoticonAttachment.swift */,
+				4EDF22DD1DEEAE5000571508 /* FindEmoticon.swift */,
+				4EDF22771DEE79DF00571508 /* Emoticons.bundle */,
+				4EDF22781DEE79DF00571508 /* EmoticonViewCell.swift */,
+				4EDF22791DEE79DF00571508 /* EmotionController.swift */,
+				4EDF227A1DEE79DF00571508 /* Model */,
+				4EDF227E1DEE79DF00571508 /* UITextView-Extension.swift */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		4EDF227A1DEE79DF00571508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF227B1DEE79DF00571508 /* Emoticon.swift */,
+				4EDF227C1DEE79DF00571508 /* EmoticonManager.swift */,
+				4EDF227D1DEE79DF00571508 /* EmoticonPackage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EF469141DDD505300AA7264 /* visitor */ = {
+			isa = PBXGroup;
+			children = (
+				4EF469151DDD506F00AA7264 /* BaseViewController.swift */,
+				4EF4691B1DDD529200AA7264 /* VisitorView.xib */,
+				4EF4691D1DDD529C00AA7264 /* VisitorView.swift */,
+			);
+			path = visitor;
+			sourceTree = "<group>";
+		};
+		4EF469231DDD82FF00AA7264 /* UIPopover */ = {
+			isa = PBXGroup;
+			children = (
+				4EF469261DDD833800AA7264 /* PopoverViewController.swift */,
+				4EF4692A1DDD8B9B00AA7264 /* CCPresentationController.swift */,
+				4EF469271DDD833800AA7264 /* PopoverViewController.xib */,
+				4EF4692C1DDD966D00AA7264 /* PopoverAnimator.swift */,
+			);
+			path = UIPopover;
+			sourceTree = "<group>";
+		};
+		4EFF25E21DE1B23D004D9D78 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF25E31DE1B25E004D9D78 /* OAuthViewController.swift */,
+				4EFDB4F31DE3FC4600A98043 /* UserAccount.swift */,
+				4EFF25E41DE1B25E004D9D78 /* OAuthViewController.xib */,
+				4EA8B2E41DE436A9003BDA36 /* UserAccountViewModel.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		8961808DA53B47481B0EB46F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB11550B3C7E3B785B3C611A /* Pods_ZhiruiWeibo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2B80B1FF9AF90A310A8CD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79D18E8990F77BA9A5C38979 /* Pods-ZhiruiWeibo.debug.xcconfig */,
+				F8D8DCB6D7A4A7C53ACD3510 /* Pods-ZhiruiWeibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDD25161DDC183B0092EC67 /* ZhiruiWeibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDD25291DDC183B0092EC67 /* Build configuration list for PBXNativeTarget "ZhiruiWeibo" */;
+			buildPhases = (
+				DACE6BE6223D5B9B806392B8 /* [CP] Check Pods Manifest.lock */,
+				4EDD25131DDC183B0092EC67 /* Sources */,
+				4EDD25141DDC183B0092EC67 /* Frameworks */,
+				4EDD25151DDC183B0092EC67 /* Resources */,
+				E7B6FFA6655A4651713A50F0 /* [CP] Embed Pods Frameworks */,
+				84FA2A8AC3E87487C8985C43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiruiWeibo;
+			productName = ZhiruiWeibo;
+			productReference = 4EDD25171DDC183B0092EC67 /* ZhiruiWeibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDD250F1DDC183B0092EC67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Coco;
+				TargetAttributes = {
+					4EDD25161DDC183B0092EC67 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4EDD25121DDC183B0092EC67 /* Build configuration list for PBXProject "ZhiruiWeibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDD250E1DDC183B0092EC67;
+			productRefGroup = 4EDD25181DDC183B0092EC67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDD25161DDC183B0092EC67 /* ZhiruiWeibo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDD25151DDC183B0092EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDD25251DDC183B0092EC67 /* LaunchScreen.storyboard in Resources */,
+				4EBE57461DE54D8300E0B43E /* WelcomeViewController.xib in Resources */,
+				4E68430B1DDC4516004EA2AD /* Discover.storyboard in Resources */,
+				4E6843051DDC36F8004EA2AD /* MainVCSettings.json in Resources */,
+				4EDD25221DDC183B0092EC67 /* Assets.xcassets in Resources */,
+				4E6843071DDC44BF004EA2AD /* Home.storyboard in Resources */,
+				4EFF25E61DE1B25E004D9D78 /* OAuthViewController.xib in Resources */,
+				4EF4691C1DDD529200AA7264 /* VisitorView.xib in Resources */,
+				4EDD25201DDC183B0092EC67 /* Main.storyboard in Resources */,
+				4E68430D1DDC452F004EA2AD /* Profile.storyboard in Resources */,
+				4EDF22821DEE79DF00571508 /* Emoticons.bundle in Resources */,
+				4EDF22801DEE79DF00571508 /* compose_emotion_delete@3x.png in Resources */,
+				4EDF227F1DEE79DF00571508 /* compose_emotion_delete@2x.png in Resources */,
+				4EF469291DDD833800AA7264 /* PopoverViewController.xib in Resources */,
+				4E68430F1DDC487E004EA2AD /* Null.storyboard in Resources */,
+				4E3FB9A91DEC2078006D9DCF /* PicPickerCell.xib in Resources */,
+				4EDD252D1DDC195B0092EC67 /* Default-736h@3x.png in Resources */,
+				4E3FB99E1DEBD096006D9DCF /* ComposeViewController.xib in Resources */,
+				4E6843091DDC44F7004EA2AD /* Message.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84FA2A8AC3E87487C8985C43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiruiWeibo/Pods-ZhiruiWeibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACE6BE6223D5B9B806392B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B6FFA6655A4651713A50F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiruiWeibo/Pods-ZhiruiWeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDD25131DDC183B0092EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFA0DD21DE687BA00AAB8BF /* StatusViewModel.swift in Sources */,
+				4EDF22841DEE79DF00571508 /* EmotionController.swift in Sources */,
+				4EEC14071DEFC1C500BFE6F3 /* PhotoBrowserController.swift in Sources */,
+				4EDF22DE1DEEAE5000571508 /* FindEmoticon.swift in Sources */,
+				4EFA0DD61DE6C91700AAB8BF /* PicCollectionView.swift in Sources */,
+				4EBE574E1DE57B8500E0B43E /* NSDate-Extension.swift in Sources */,
+				4E0F5B601DEFFCFB00868DEC /* PhotoBrowserAnimator.swift in Sources */,
+				4EDD25351DDC2C2B0092EC67 /* MainViewController.swift in Sources */,
+				4E3FB9A81DEC2078006D9DCF /* PicPickerCell.swift in Sources */,
+				4EF4692B1DDD8B9B00AA7264 /* CCPresentationController.swift in Sources */,
+				4EDD251D1DDC183B0092EC67 /* ViewController.swift in Sources */,
+				4E3FB9A21DEBD62A006D9DCF /* ComposeTextView.swift in Sources */,
+				4EF469281DDD833800AA7264 /* PopoverViewController.swift in Sources */,
+				4EDF22811DEE79DF00571508 /* EmoticonAttachment.swift in Sources */,
+				4EFDB4F41DE3FC4600A98043 /* UserAccount.swift in Sources */,
+				4EF469221DDD7E9400AA7264 /* TitleButton.swift in Sources */,
+				4EFA0DD41DE68F9400AAB8BF /* HomeViewCell.swift in Sources */,
+				4EF469201DDD7BCC00AA7264 /* UIBarButtonItem-Extension.swift in Sources */,
+				4E0F5B5E1DEFDD8C00868DEC /* ProgressView.swift in Sources */,
+				4EDD251B1DDC183B0092EC67 /* AppDelegate.swift in Sources */,
+				4EDD253B1DDC2D610092EC67 /* DiscoverViewController.swift in Sources */,
+				4E1992C91DE1834A0044CFAC /* CCNetworkTool.swift in Sources */,
+				4EDD253D1DDC2D6E0092EC67 /* ProfileViewController.swift in Sources */,
+				4E3FB99D1DEBD096006D9DCF /* ComposeViewController.swift in Sources */,
+				4EFF25E51DE1B25E004D9D78 /* OAuthViewController.swift in Sources */,
+				4E0F5B5C1DEFCD6D00868DEC /* PhotoBrowserViewCell.swift in Sources */,
+				4EF469161DDD506F00AA7264 /* BaseViewController.swift in Sources */,
+				4EBE57471DE54D8300E0B43E /* WelcomeViewController.swift in Sources */,
+				4EDF22881DEE79DF00571508 /* UITextView-Extension.swift in Sources */,
+				4EDF22831DEE79DF00571508 /* EmoticonViewCell.swift in Sources */,
+				4EF4692D1DDD966D00AA7264 /* PopoverAnimator.swift in Sources */,
+				4EDF22851DEE79DF00571508 /* Emoticon.swift in Sources */,
+				4E1992C41DE178680044CFAC /* YCNetWorkManage.m in Sources */,
+				4EDD25371DDC2D330092EC67 /* HomeViewController.swift in Sources */,
+				4EDF22861DEE79DF00571508 /* EmoticonManager.swift in Sources */,
+				4EFA0DDC1DE6D03B00AAB8BF /* PicCollectionViewCell.swift in Sources */,
+				4E3FB9A51DEC197E006D9DCF /* PicPickerCollectionView.swift in Sources */,
+				4EBE574A1DE56A4600E0B43E /* Status.swift in Sources */,
+				4EFF25E81DE1C40B004D9D78 /* Common.swift in Sources */,
+				4EF4691E1DDD529C00AA7264 /* VisitorView.swift in Sources */,
+				4EBE574C1DE56A8B00E0B43E /* User.swift in Sources */,
+				4EA8B2E51DE436A9003BDA36 /* UserAccountViewModel.swift in Sources */,
+				4EDD25391DDC2D530092EC67 /* MessageViewController.swift in Sources */,
+				4EDF22871DEE79DF00571508 /* EmoticonPackage.swift in Sources */,
+				4E3FB9A01DEBD334006D9DCF /* ComposeTitleView.swift in Sources */,
+				4E6843131DDC578C004EA2AD /* UIButton-Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EDD251E1DDC183B0092EC67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDD251F1DDC183B0092EC67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EDD25231DDC183B0092EC67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDD25241DDC183B0092EC67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDD25271DDC183B0092EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EDD25281DDC183B0092EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDD252A1DDC183B0092EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D18E8990F77BA9A5C38979 /* Pods-ZhiruiWeibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ZhiruiWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.red-cocoon.www.ZhiruiWeibo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZhiruiWeibo/Classes/Tools/ZhiruiWeibo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EDD252B1DDC183B0092EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D8DCB6D7A4A7C53ACD3510 /* Pods-ZhiruiWeibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ZhiruiWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.red-cocoon.www.ZhiruiWeibo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZhiruiWeibo/Classes/Tools/ZhiruiWeibo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDD25121DDC183B0092EC67 /* Build configuration list for PBXProject "ZhiruiWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDD25271DDC183B0092EC67 /* Debug */,
+				4EDD25281DDC183B0092EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDD25291DDC183B0092EC67 /* Build configuration list for PBXNativeTarget "ZhiruiWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDD252A1DDC183B0092EC67 /* Debug */,
+				4EDD252B1DDC183B0092EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDD250F1DDC183B0092EC67 /* Project object */;
+}
